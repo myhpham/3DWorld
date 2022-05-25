@@ -1,0 +1,34 @@
+<!-- Assignment 2: Blocky Animal -->
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8" />
+	<title>Blocky World</title>
+</head>
+<body onload="main()">
+	<canvas id = "webgl" width="500" height="500">
+	Please use a browser that supports "canvas"
+	</canvas>
+
+	<!-- load libraries -->
+	<script src="lib/cuon-matrix-cse160.js"></script>
+	<script src="lib/cuon-utils.js"></script>
+	<script src="lib/webgl-debug.js"></script>
+	<script src="lib/webgl-utils.js"></script>
+
+	<!-- load js files -->
+	<script src="js/triangle.js"></script>
+	<script src="js/pyramid.js"></script>
+	<script src="js/cube.js"></script>
+	<script src="js/shaders.js"></script>
+	<script src="js/camera.js"></script>
+	<script src="main.js"></script>
+	
+	<br> <br>
+	Toggle Day/Night: 
+	<!-- UI BUTTONS -->
+	<button type="button" id="a_Day">Day</button>
+	<button type="button" id="a_Night">Night</button>
+</body>
+</html>
